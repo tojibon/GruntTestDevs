@@ -10,6 +10,7 @@ mkdir GruntTestDevs
 cd GruntTestDevs
 git init
 git remote add origin https://github.com/tojibon/GruntTestDevs.git
+git pull origin master
 cd SASSnMinify
 npm install
 grunt watch
